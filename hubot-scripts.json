@@ -1,1 +1,6 @@
-["dealwithit.coffee"]
+[
+	"dealwithit.coffee",
+	"ackbar.coffee",
+	"advice.coffee",
+	"beerme.coffee"
+]
