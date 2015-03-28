@@ -20,13 +20,13 @@ module.exports = (robot) ->
   #   else
   #     msg.reply "Opening #{doorType} doors"
   #
-  # robot.hear /I like pie/i, (msg) ->
-  #   msg.emote "makes a freshly baked pie"
+    robot.hear /I like pie/i, (msg) ->
+      msg.emote "makes a freshly baked pie"
   #
-  # lulz = ['lol', 'rofl', 'lmao']
+    lulz = ['lol', 'rofl', 'lmao']
   #
-  # robot.respond /lulz/i, (msg) ->
-  #   msg.send msg.random lulz
+    robot.respond /lulz/i, (msg) ->
+      msg.send msg.random lulz
   #
   # robot.topic (msg) ->
   #   msg.send "#{msg.message.text}? That's a Paddlin'"
@@ -48,12 +48,12 @@ module.exports = (robot) ->
   #     return
   #   msg.send "#{answer}, but what is the question?"
   #
-  # robot.respond /you are a little slow/, (msg) ->
-  #   setTimeout () ->
-  #     msg.send "Who you calling 'slow'?"
-  #   , 60 * 1000
-  #
-  # annoyIntervalId = null
+    robot.respond /you are a little slow/, (msg) ->
+      setTimeout () ->
+        msg.send "Who you calling 'slow'?"
+      , 60 * 1000
+   
+    annoyIntervalId = null
   #
   # robot.respond /annoy me/, (msg) ->
   #   if annoyIntervalId
