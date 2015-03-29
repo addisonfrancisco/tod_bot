@@ -3,5 +3,6 @@
 	"ackbar.coffee",
 	"advice.coffee",
 	"beerme.coffee",
-	"abstract.coffee"
+	"abstract.coffee",
+	"animal.coffee"
 ]
