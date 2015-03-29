@@ -5,12 +5,14 @@
   "author": "addisonfrancisco <addison.francisco@gmail.com>",
   "description": "tod is here for you",
   "dependencies": {
+    "htmlparser": "1.7.6",
     "hubot": "^2.11.4",
     "hubot-diagnostics": "0.0.1",
     "hubot-google-images": "^0.1.4",
     "hubot-google-translate": "^0.1.0",
     "hubot-help": "^0.1.1",
     "hubot-heroku-keepalive": "0.0.4",
+    "hubot-karma-classic": "^1.0.1",
     "hubot-maps": "0.0.2",
     "hubot-pugme": "^0.1.0",
     "hubot-redis-brain": "0.0.2",
@@ -19,8 +21,7 @@
     "hubot-shipit": "^0.1.2",
     "hubot-slack": "^3.3.0",
     "hubot-youtube": "^0.1.2",
-    "soupselect": "0.2.0",
-    "htmlparser": "1.7.6"
+    "soupselect": "0.2.0"
   },
   "engines": {
     "node": "0.10.x"
