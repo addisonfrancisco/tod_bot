@@ -4,5 +4,6 @@
 	"advice.coffee",
 	"beerme.coffee",
 	"abstract.coffee",
-	"animal.coffee"
+	"animal.coffee",
+	"wunderground.coffee"
 ]
