@@ -2,5 +2,6 @@
 	"dealwithit.coffee",
 	"ackbar.coffee",
 	"advice.coffee",
-	"beerme.coffee"
+	"beerme.coffee",
+	"abstract.coffee"
 ]
